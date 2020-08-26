@@ -21,7 +21,7 @@ npm install
 cp env.sample .env
 ```
 ```
-BASE_URL = https://jsonplaceholder.typicode.com
+BASE_URL = 
 ```
     
 ## How To Run
