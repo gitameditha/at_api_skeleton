@@ -21,13 +21,16 @@ npm install
 cp env.sample .env
 ```
 ```
-BASE_URL = https://jsonplaceholder.typicode.com
+BASE_URL = 
 ```
     
 ## How To Run
 ```
 npm run test-api        #Running test case
 npm run reports         #generate reports
+
+notes* If use Unix remove node in 
+"test-api": "node ./node_modules/mocha/bin/mocha ./api/test --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 180000",
 ```
 
 ## Structure
